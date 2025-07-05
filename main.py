@@ -17,7 +17,7 @@ CORS(app, resources={
         "origins": [
             "http://localhost:3000",  # React dev environment
             "http://localhost:3001",  # If you're using port 3001
-            "https://gennotes.vercel.app",  # your actual Vercel frontend
+            "https://gennote.vercel.app",  # your actual Vercel frontend
         ]
     }
 })
