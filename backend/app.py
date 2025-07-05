@@ -17,7 +17,7 @@ CORS(app, resources={
         "origins": [
             "http://localhost:3000",  # React dev environment
             "http://localhost:3001",  # If you're using port 3001
-            "https://gennotes.vercel.app",  # your actual Vercel frontend
+            "https://gennote.vercel.app",  # your actual Vercel frontend
         ]
     }
 })
@@ -25,9 +25,6 @@ CORS(app, resources={
 # Register the blueprint for routes
 app.register_blueprint(bp)
 
-# This is necessary for Render to find the `app` object
-if __name__ != "__main__":
-    gunicorn_app = app  # Render's Gunicorn looks for this
 
 # Local development entry point
 if __name__ == "__main__":
