@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+torch_cpu.dll
+# React build output
+build/
+git push origin --force
+
+# Environment variables
+.env
+
+# Python virtual environments
+venv/
+backend/venv/
+
+# Python cache
+__pycache__/
+backend/__pycache__/
+
+# Logs
+*.log
+
+# Compiled binaries and libraries
+*.dll
+*.lib
+*.pyd
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.swp
+
+# SQLite and misc files
+backend/db.sqlite3
+
+# Other
+.codegpt
+*.dll
+*.lib
+*.pyd
+*.pyc
+**/venv/
+.venv
