@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from dotenv import load_dotenv
-from app.routes import bp  # make sure this path is correct based on your structure
+from backend.routes import bp  # make sure this path is correct based on your structure
 
 import os
 
